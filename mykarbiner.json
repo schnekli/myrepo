@@ -47,6 +47,56 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Change Command-Up to Page-Up",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "up_arrow",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up",
+              "modifiers": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change Command-Down key to Page-Down",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "down_arrow",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down",
+              "modifiers": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
